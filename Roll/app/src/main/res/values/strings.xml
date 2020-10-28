@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Roll Ads Demo</string>
+    <string name="instream_ad">Instream Ad</string>
+    <string name="ad_flag">Ad</string>
+    <string name="instream_video_content">Your video content</string>
+    <string name="instream_skip_ad">Skip</string>
+    <string name="instream_learn_more">Learn more</string>
+    <string name="instream_ad_id">testy3cglm3pj0</string>
+    <string name="instream_normal_video_playing">Normal video is playing</string>
+    <string name="instream_load">Load Ad</string>
+    <string name="instream_register">Register</string>
+    <string name="instream_mute">Mute</string>
+    <string name="instream_unmute">UnMute</string>
+    <string name="instream_play">Play</string>
+    <string name="instream_pause">Pause</string>
+    <string name="instream_loading">Loading</string>
+    <string name="instream_loaded">Ad Loaded</string>
+</resources>
