@@ -122,6 +122,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onMediaCompletion(int playTime) {
             updateCountDown(playTime);
+            removeInstream();
             playVideo();
         }
 
