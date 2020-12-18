@@ -12,7 +12,7 @@
         <activity android:name="com.huawei.splashadexample.MainActivity"></activity>
         <activity
             android:name="com.huawei.splashadexample.SplashActivity"
-            android:exported="false"
+            android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
