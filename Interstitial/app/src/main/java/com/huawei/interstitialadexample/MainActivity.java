@@ -98,17 +98,20 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadInterstitialAd() {
         interstitialAd = new InterstitialAd(this);
+        // Sets an ad unit ID.
         interstitialAd.setAdId(getAdId());
         interstitialAd.setAdListener(adListener);
-
+        // Load an interstitial ad.
         AdParam adParam = new AdParam.Builder().build();
         interstitialAd.loadAd(adParam);
     }
 
     private String getAdId() {
         if (displayRadioGroup.getCheckedRadioButtonId() == R.id.display_image) {
+            // The value of image_ad_id is teste9ih9j0rc3.
             return getString(R.string.image_ad_id);
         } else {
+            // The value of video_ad_id is testb4znbuh3n2.
             return getString(R.string.video_ad_id);
         }
     }
