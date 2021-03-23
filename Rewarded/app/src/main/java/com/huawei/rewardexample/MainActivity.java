@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void createRewardAd() {
+        // testx9dtjwj8hp indicates a test ad unit ID.
         rewardAd = new RewardAd(MainActivity.this, getString(R.string.reward_ad_id));
     }
 
