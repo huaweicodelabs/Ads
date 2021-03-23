@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun createRewardAd() {
+        // testx9dtjwj8hp indicates a test ad unit ID.
         rewardAd = RewardAd(this@MainActivity, getString(R.string.reward_ad_id))
     }
 
