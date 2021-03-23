@@ -78,16 +78,20 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadInterstitialAd() {
         interstitialAd = InterstitialAd(this)
+        // Sets an ad unit ID.
         interstitialAd!!.adId = adId
         interstitialAd!!.adListener = adListener
+        // Load an interstitial ad.
         val adParam = AdParam.Builder().build()
         interstitialAd!!.loadAd(adParam)
     }
 
     private val adId: String
         private get() = if (displayRadioGroup!!.checkedRadioButtonId == R.id.display_image) {
+            // The value of image_ad_id is teste9ih9j0rc3.
             getString(R.string.image_ad_id)
         } else {
+            // The value of video_ad_id is testb4znbuh3n2.
             getString(R.string.video_ad_id)
         }
 
