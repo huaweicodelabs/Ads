@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Roll Ads Demo</string>
+    <string name="app_name">InstreamAdExample</string>
     <string name="instream_ad">Instream Ad</string>
     <string name="ad_flag">Ad</string>
     <string name="instream_video_content">Your video content</string>
