@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SplashAdExample_Kotlin</string>
+    <string name="app_name">SplashAdExample</string>
     <string name="ad_id_splash">testd7c5cewoj6</string>
     <string name="ad_id_splash_landscape">testq6zq98hecj</string>	
     <string name="copyright_info">Copyright 2020. X Technologies Co., Ltd</string>
