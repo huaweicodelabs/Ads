@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NativeAdExample_Kotlin</string>
+    <string name="app_name">NativeAdExample</string>
     <string name="ad_id_native">testu7m3hc4gvm</string>
     <string name="ad_id_native_small">testb65czjivt9</string>
     <string name="ad_id_native_video">testy63txaom86</string>
