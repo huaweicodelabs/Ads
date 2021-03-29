@@ -52,8 +52,13 @@ class MainActivity : AppCompatActivity() {
         context = applicationContext
         setTitle(R.string.instream_ad)
         setContentView(R.layout.activity_main)
+       
+       // Initialize the HUAWEI Ads SDK.
+        HwAds.init(this);
+       
         initInstreamAdView()
         initButtons()
+       
         configAdLoader()
     }
 
