@@ -16,8 +16,10 @@
 
 package com.huawei.splashadexample;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -25,7 +27,6 @@ import android.util.Log;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.huawei.hms.ads.AdParam;
 import com.huawei.hms.ads.AudioFocusType;
@@ -34,7 +35,7 @@ import com.huawei.hms.ads.splash.SplashAdDisplayListener;
 import com.huawei.hms.ads.splash.SplashView;
 
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends Activity {
     private static final String TAG = SplashActivity.class.getSimpleName();
 
     // Ad display timeout interval, in milliseconds.
@@ -106,6 +107,9 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Lock screen orientation
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LOCKED);
         setContentView(R.layout.activity_splash);
 
         // Initialize the HUAWEI Ads SDK.
@@ -116,10 +120,22 @@ public class SplashActivity extends AppCompatActivity {
 
     private void loadAd() {
         Log.i(TAG, "Start to load ad");
-
+        int orientation = getScreenOrientation();
         AdParam adParam = new AdParam.Builder().build();
         splashView = findViewById(R.id.splash_ad_view);
         splashView.setAdDisplayListener(adDisplayListener);
+
+        String slotId;
+        // Set a default app launch image.
+        if (orientation == ActivityInfo.SCREEN_ORIENTATION_PORTRAIT) {
+            splashView.setSloganResId(R.drawable.default_slogan);
+            slotId = getString(R.string.ad_id_splash);
+        } else {
+            splashView.setSloganResId(R.drawable.default_slogan_landscape);
+            slotId = getString(R.string.ad_id_splash_landscape);			
+        }
+
+        splashView.setLogo(findViewById(R.id.logo_area));
 
         // Set a logo image.
         splashView.setLogoResId(R.mipmap.ic_launcher);
@@ -128,7 +144,7 @@ public class SplashActivity extends AppCompatActivity {
         // Set the audio focus type for a video splash ad.
         splashView.setAudioFocusType(AudioFocusType.NOT_GAIN_AUDIO_FOCUS_WHEN_MUTE);
 
-        splashView.load(getString(R.string.ad_id_splash), ActivityInfo.SCREEN_ORIENTATION_PORTRAIT, adParam, splashAdLoadListener);
+        splashView.load(slotId, orientation, adParam, splashAdLoadListener);
         Log.i(TAG, "End to load ad");
 
         // Remove the timeout message from the message queue.
@@ -137,15 +153,24 @@ public class SplashActivity extends AppCompatActivity {
         timeoutHandler.sendEmptyMessageDelayed(MSG_AD_TIMEOUT, AD_TIMEOUT);
     }
 
+    private int getScreenOrientation() {
+        Configuration config = getResources().getConfiguration();
+        if (config.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            return ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE;
+        } else {
+            return ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
+        }
+    }
+
     /**
      * Switch from the splash ad screen to the app home screen when the ad display is complete.
      */
     private void jump() {
-        Log.i(TAG, "jump hasPaused: " + hasPaused);
+        Log.i(TAG, "Jump hasPaused: " + hasPaused);
         if (!hasPaused) {
             hasPaused = true;
-            Log.i(TAG, "jump into application");
 
+            Log.i(TAG, "Jump into MainActivity");
             startActivity(new Intent(SplashActivity.this, MainActivity.class));
 
             Handler mainHandler = new Handler();
