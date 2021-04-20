@@ -16,6 +16,7 @@
 
 ## Installation
     Install the program on Huawei Android mobile phones.
+    <br>You also can use HMS Toolkit to quickly integrate the kit and run the demo project, as well as debug the app using a remote device for free. For details, please        visit [HMS Toolkit](https://developer.huawei.com/consumer/cn/doc/development/Tools-Guides/getting-started-0000001077381096).</br>
     
 ## Supported Environments
     HMS Core (APK) 2.6.2 or later has been installed on Huawei Android phones.
