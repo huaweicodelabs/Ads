@@ -26,22 +26,22 @@ N/A
 	
 ## Sample Code
 The HuaweiAds_Install_Referrer_Demo program integrates the install referrer capability.
-The following classes in the demo:
+<br>The following classes in the demo:
 
 1). PpsChannelInfoService.java
-Test ChannelInfo Service.
+<br>Test ChannelInfo Service.
 <br>Code location: HuaweiAds_Install_Referrer_Demo\app\src\main\java\com\huawei\pps\hms\test\PpsChannelInfoService.java.</br>
 	
 2). InstallReferrerWriteActivity.java
-Write install referrer information.
+<br>Write install referrer information
 <br>Code location: HuaweiAds_Install_Referrer_Demo\app\src\main\java\com\huawei\pps\hms\test\installreferrer\InstallReferrerWriteActivity.java.</br>
     
 3). InstallReferrerActivity.java
-Show install referrer information.
+<br>Show install referrer information.
 <br>Code location: HuaweiAds_Install_Referrer_Demo\app\src\main\java\com\huawei\pps\hms\test\installreferrer\InstallReferrerActivity.java.</br>
 	
 4). IPPSChannelInfoService.aidl
-ChannelInfo AIDL inferface.
+<br>ChannelInfo AIDL inferface.
 <br>Code location: HuaweiAds_Install_Referrer_Demo\app\src\main\aidl\com\huawei\android\hms\ppskit\IPPSChannelInfoService.aidl.</br>
     
 
