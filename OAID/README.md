@@ -12,30 +12,30 @@
  
  
 ## Introduction
-    The HuaweiAds_OAID_Demo program demonstrates how to integrate OAID capabilities.
+The HuaweiAds_OAID_Demo program demonstrates how to integrate OAID capabilities.
 
 ## Installation
-    Install the program on Huawei Android mobile phones.
-    <br>You also can use HMS Toolkit to quickly integrate the kit and run the demo project, as well as debug the app using a remote device for free. For details, please        visit [HMS Toolkit](https://developer.huawei.com/consumer/cn/doc/development/Tools-Guides/getting-started-0000001077381096).</br>
+Install the program on Huawei Android mobile phones.
+<br>You also can use HMS Toolkit to quickly integrate the kit and run the demo project, as well as debug the app using a remote device for free. For details, please visit [HMS Toolkit](https://developer.huawei.com/consumer/cn/doc/development/Tools-Guides/getting-started-0000001077381096).</br>
     
 ## Supported Environments
-    HMS Core (APK) 2.6.2 or later has been installed on Huawei Android phones.
+HMS Core (APK) 2.6.2 or later has been installed on Huawei Android phones.
 	
 ## Configuration 
-    N/A
+N/A
 	
 ## Sample Code
-    The HuaweiAds_OAID_Demo program integrates OAID capabilities.
-    The following classes in the demo:
+The HuaweiAds_OAID_Demo program integrates OAID capabilities.
+<br>The following classes in the demo:
 
-    1). MainActivity.java
-    MainActivity
-    Code location: HuaweiAds_OAID_Demo\app\src\main\java\com\huawei\pps\hms\test\oaid\MainActivity.java
+1). MainActivity.java
+<br>MainActivity
+<br>Code location: HuaweiAds_OAID_Demo\app\src\main\java\com\huawei\pps\hms\test\oaid\MainActivity.java.</br>
     
-    2). OaidActivity.java
-    Show OAID.
-    Code location: HuaweiAds_OAID_Demo\app\src\main\java\com\huawei\pps\hms\test\oaid\OaidActivity.java
+2). OaidActivity.java
+<br>Show OAID.
+<br>Code location: HuaweiAds_OAID_Demo\app\src\main\java\com\huawei\pps\hms\test\oaid\OaidActivity.java.</br>
     
 
 ##  License
-    HuaweiAds_OAID_Demo is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+HuaweiAds_OAID_Demo is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
