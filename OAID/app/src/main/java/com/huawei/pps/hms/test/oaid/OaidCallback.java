@@ -17,7 +17,7 @@
 package com.huawei.pps.hms.test.oaid;
 
 public interface OaidCallback {
-    void onSuccuss(String oaid, boolean isOaidTrackLimited);
+    void onSuccess(String oaid, boolean isOaidTrackLimited);
 
     void onFail(String errMsg);
 }
