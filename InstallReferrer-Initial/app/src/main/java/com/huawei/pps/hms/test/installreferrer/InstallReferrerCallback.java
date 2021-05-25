@@ -17,7 +17,7 @@
 package com.huawei.pps.hms.test.installreferrer;
 
 public interface InstallReferrerCallback {
-    void onSuccuss(String installReferrer, long clickTimestamp, long installTimestamp);
+    void onSuccess(String installReferrer, long clickTimestamp, long installTimestamp);
 
     void onFail(String errMsg);
 }
