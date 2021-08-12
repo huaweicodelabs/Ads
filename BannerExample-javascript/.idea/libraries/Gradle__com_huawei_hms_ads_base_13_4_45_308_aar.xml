@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ads-base:13.4.45.308@aar">
+    <CLASSES>
+      <root url="jar://D:/Android/Sdk/caches/transforms-2/files-2.1/642d5998164da06e0f91729c9859298d/ads-base-13.4.45.308/jars/classes.jar!/" />
+      <root url="file://D:/Android/Sdk/caches/transforms-2/files-2.1/642d5998164da06e0f91729c9859298d/ads-base-13.4.45.308/res" />
+      <root url="file://D:/Android/Sdk/caches/transforms-2/files-2.1/642d5998164da06e0f91729c9859298d/ads-base-13.4.45.308/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

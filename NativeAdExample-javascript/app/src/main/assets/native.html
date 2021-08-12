@@ -1,0 +1,186 @@
+<!-- Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUAWEI Ads H5 Native Ad demo</title>
+    <link type="text/css" rel="styleSheet" href="./css/style.css"/>
+    <link type="text/css" rel="styleSheet" href="./css/template.css"/>
+    <script src="https://h5hosting.dbankcdn.com/cch5/pps-jssdk/mobile/ppsads.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <section class="request-area">
+        <p>Display form:</p>
+        <div class="radio-group">
+            <div class="radio-item">
+                <input type="radio" id="largeImg" name="creativeType" value="testu7m3hc4gvm" checked>
+                <label for="largeImg">Large image with text.</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="threeImg" name="creativeType" value="testr6w14o0hqz">
+                <label for="threeImg">Three images with text.</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="smallImage" name="creativeType" value="testb65czjivt9">
+                <label for="smallImage">Small image with text.</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="video" name="creativeType" value="testy63txaom86">
+                <label for="video">Video with text.</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="withBtn" name="creativeType" value="testy63txaom86">
+                <label for="withBtn">Ad with app download button.</label>
+            </div>
+        </div>
+        <div class="mt-10 mb-10 flex-center">
+            <button class="request-btn btn">Load Ad</button>
+        </div>
+    </section>
+    <div id="content">
+
+    </div>
+
+    <template id="native-big-img-template">
+        <ads-native class="native native-big-tmpl hidden">
+            <div>
+                <img src="" alt="" class="native__img" style="width:100%;"/>
+            </div>
+            <div class="native__footer">
+                <div>
+                    <div>
+                        <span class="native__title"></span>
+                    </div>
+                    <div>
+                        <span class="native__ad-source"></span>
+                        <span class="native__ad-flag"></span>
+                    </div>
+                </div>
+                <div>
+                    <button class="native__cta-btn btn"></button>
+                </div>
+            </div>
+        </ads-native>
+    </template>
+    <template id="native-small-img-template">
+        <ads-native class="native native-small-tmpl hidden">
+            <div class="content">
+                <div class="left">
+                    <div>
+                        <img src="" alt="" class="native__img" style="width:75px;"/>
+                    </div>
+                    <div class="native__txt-area">
+                        <div>
+                            <span class="native__title"></span>
+                        </div>
+                        <div>
+                            <span class="native__ad-source"></span>
+                            <span class="native__ad-flag"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div>
+                        <button class="native__cta-btn btn"></button>
+                    </div>
+                </div>
+            </div>
+        </ads-native>
+    </template>
+    <template id="native-three-img-template">
+        <ads-native class="native native-three-tmpl hidden">
+            <div class="native__img-groups">
+                <div class="native__img-item">
+                    <img src="" alt="" class="native__img1" style="width:75px;"/>
+                </div>
+                <div class="native__img-item">
+                    <img src="" alt="" class="native__img2" style="width:75px;"/>
+                </div>
+                <div class="native__img-item">
+                    <img src="" alt="" class="native__img3" style="width:75px;"/>
+                </div>
+            </div>
+
+            <div class="native__footer">
+                <div>
+                    <div>
+                        <span class="native__title"></span>
+                    </div>
+                    <div>
+                        <span class="native__ad-source"></span>
+                        <span class="native__ad-flag"></span>
+                    </div>
+                </div>
+                <div>
+                    <button class="native__cta-btn btn"></button>
+                </div>
+            </div>
+        </ads-native>
+    </template>
+    <template id="native-video-template">
+        <ads-native class="native native-video-tmpl hidden">
+            <div>
+                <ads-native-video class="native__video-view"></ads-native-video>
+            </div>
+            <div class="native__footer">
+                <div>
+                    <div>
+                        <span class="native__title"></span>
+                    </div>
+                    <div>
+                        <span class="native__ad-source"></span>
+                        <span class="native__ad-flag"></span>
+                    </div>
+                </div>
+                <div>
+                    <button class="native__cta-btn btn"></button>
+                </div>
+            </div>
+        </ads-native>
+    </template>
+    <template id="native-video-with-btn-template">
+        <ads-native class="native hidden">
+            <div>
+                <ads-native-video class="native__video-view"></ads-native-video>
+            </div>
+            <div class="native__footer">
+                <div>
+                    <div>
+                        <span class="native__title"></span>
+                    </div>
+                    <div>
+                        <span class="native__ad-source"></span>
+                        <span class="native__ad-flag"></span>
+                    </div>
+                </div>
+                <div>
+                    <ads-app-button class="native__app-btn"></ads-app-button>
+                </div>
+            </div>
+        </ads-native>
+    </template>
+    <script src="./js/adUtils.js"></script>
+    <script src="./js/adManager.js"></script>
+    <script src="./js/native.js"></script>
+</div>
+</body>
+
+</html>

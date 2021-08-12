@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ads-interstitial:13.4.45.308@aar">
+    <CLASSES>
+      <root url="jar://D:/Android/Sdk/caches/transforms-2/files-2.1/b90d7e993c3d11d043e2c28ba43a4338/ads-interstitial-13.4.45.308/jars/classes.jar!/" />
+      <root url="file://D:/Android/Sdk/caches/transforms-2/files-2.1/b90d7e993c3d11d043e2c28ba43a4338/ads-interstitial-13.4.45.308/res" />
+      <root url="file://D:/Android/Sdk/caches/transforms-2/files-2.1/b90d7e993c3d11d043e2c28ba43a4338/ads-interstitial-13.4.45.308/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

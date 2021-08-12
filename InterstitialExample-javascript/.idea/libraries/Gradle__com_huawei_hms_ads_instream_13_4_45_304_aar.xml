@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ads-instream:13.4.45.304@aar">
+    <CLASSES>
+      <root url="jar://D:/Android/Sdk/caches/transforms-2/files-2.1/2a108f495323ad1268b314ca3a8df6ce/ads-instream-13.4.45.304/jars/classes.jar!/" />
+      <root url="file://D:/Android/Sdk/caches/transforms-2/files-2.1/2a108f495323ad1268b314ca3a8df6ce/ads-instream-13.4.45.304/res" />
+      <root url="file://D:/Android/Sdk/caches/transforms-2/files-2.1/2a108f495323ad1268b314ca3a8df6ce/ads-instream-13.4.45.304/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

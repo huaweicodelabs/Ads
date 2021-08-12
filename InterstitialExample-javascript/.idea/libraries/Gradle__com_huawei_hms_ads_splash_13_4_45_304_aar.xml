@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ads-splash:13.4.45.304@aar">
+    <CLASSES>
+      <root url="jar://D:/Android/Sdk/caches/transforms-2/files-2.1/fd8c8e91b7edc75a2c42c75dc0304339/ads-splash-13.4.45.304/jars/classes.jar!/" />
+      <root url="file://D:/Android/Sdk/caches/transforms-2/files-2.1/fd8c8e91b7edc75a2c42c75dc0304339/ads-splash-13.4.45.304/res" />
+      <root url="file://D:/Android/Sdk/caches/transforms-2/files-2.1/fd8c8e91b7edc75a2c42c75dc0304339/ads-splash-13.4.45.304/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

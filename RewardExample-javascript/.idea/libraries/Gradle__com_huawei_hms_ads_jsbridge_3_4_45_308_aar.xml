@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ads-jsbridge:3.4.45.308@aar">
+    <CLASSES>
+      <root url="jar://D:/Android/Sdk/caches/transforms-2/files-2.1/ec22d3cfae92593ea572ba1e9b67c85c/jetified-ads-jsbridge-3.4.45.308/jars/classes.jar!/" />
+      <root url="file://D:/Android/Sdk/caches/transforms-2/files-2.1/ec22d3cfae92593ea572ba1e9b67c85c/jetified-ads-jsbridge-3.4.45.308/res" />
+      <root url="file://D:/Android/Sdk/caches/transforms-2/files-2.1/ec22d3cfae92593ea572ba1e9b67c85c/jetified-ads-jsbridge-3.4.45.308/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
