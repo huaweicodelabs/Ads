@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String SP_PROTOCOL_KEY = "user_consent_status";
 
     private ExSplashServiceManager exSplashService;
+    private ExSplashBroadcastReceiver mExSplashBroadcastReceiver;
 
     private Button showDialog;
 
@@ -46,8 +47,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        mExSplashBroadcastReceiver = new ExSplashBroadcastReceiver();
         IntentFilter filter = new IntentFilter(ACTION_EXSPLASH_DISPLAYED);
-        registerReceiver(new ExSplashBroadcastReceiver(), filter);
+        registerReceiver(mExSplashBroadcastReceiver, filter);
 
         exSplashService = new ExSplashServiceManager(this);
         showDialog = findViewById(R.id.show_dialog);
@@ -60,6 +62,15 @@ public class MainActivity extends AppCompatActivity {
 
         // Checking user consent status.
         checkUserConsent();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mExSplashBroadcastReceiver != null) {
+            unregisterReceiver(mExSplashBroadcastReceiver);
+            mExSplashBroadcastReceiver = null;
+        }
     }
 
     /**
