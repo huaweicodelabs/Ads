@@ -28,18 +28,30 @@ import com.huawei.hms.ads.exsplash.ProtocolDialog.ProtocolDialogCallback
 
 class MainActivity : AppCompatActivity() {
     private var exSplashService: ExSplashServiceManager? = null
+    private var exSplashBroadcastReceiver: ExSplashBroadcastReceiver? = null
     private var showDialog: Button? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        exSplashBroadcastReceiver = ExSplashBroadcastReceiver()
         val filter = IntentFilter(ACTION_EXSPLASH_DISPLAYED)
-        registerReceiver(ExSplashBroadcastReceiver(), filter)
+        registerReceiver(exSplashBroadcastReceiver, filter)
         exSplashService = ExSplashServiceManager(this)
         showDialog = findViewById(R.id.show_dialog)
         showDialog!!.setOnClickListener(View.OnClickListener { showProtocolDialog() })
 
         // Checking user consent status.
         checkUserConsent()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        if (exSplashBroadcastReceiver != null) {
+            unregisterReceiver(exSplashBroadcastReceiver)
+            exSplashBroadcastReceiver = null
+        }
     }
 
     /**
