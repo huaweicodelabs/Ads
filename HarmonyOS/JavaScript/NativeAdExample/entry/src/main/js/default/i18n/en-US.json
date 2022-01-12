@@ -1,0 +1,9 @@
+{
+  "strings": {
+    "init": "Request ad",
+    "loading": "Loading...",
+    "loaded": "Refresh ad",
+    "error": "Request ad",
+    "ad_text": "AD"
+  }
+}

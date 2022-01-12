@@ -1,0 +1,66 @@
+{
+  "app": {
+    "bundleName": "com.huawei.ohos.ads.splash",
+    "vendor": "huawei",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.huawei.ohos.ads.splash",
+    "name": ".MyApplication",
+    "mainAbility": "com.huawei.ohos.ads.splash.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "name": "com.huawei.ohos.ads.splash.SplashAbility",
+        "type": "page",
+        "launchType": "standard",
+        "icon": "$media:icon",
+        "label": "$string:SplashAbility",
+        "description": "$string:mainability_description",
+        "orientation": "unspecified",
+        "visible": true,
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.Wallpaper.NoTitleBar.Fullscreen"
+            }
+          ]
+        },
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      },{
+        "name": "com.huawei.ohos.ads.splash.MainAbility",
+        "launchType": "standard",
+        "type": "page",
+        "label": "$string:MainAbility",
+        "visible": true,
+        "orientation": "unspecified",
+        "configChanges": [
+          "orientation"
+        ]
+      }
+    ]
+  }
+}

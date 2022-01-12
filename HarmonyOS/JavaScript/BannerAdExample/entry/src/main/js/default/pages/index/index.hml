@@ -1,0 +1,7 @@
+<element name="ads-banner-view"
+         src="../../../../../../node_modules/@hw-ads/ohos-ads/components/ads-banner-view/index.hml"></element>
+<div class="container">
+    <ads-banner-view id="bannerView" ad-id="testw6vs28auh3" size="BANNER_SIZE_360_57"
+                     @ad-loaded="adLoadedHandler" @ad-failed="adFailedHandler" @ad-closed="adCloseHandler">
+    </ads-banner-view>
+</div>

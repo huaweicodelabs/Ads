@@ -1,0 +1,9 @@
+{
+  "strings": {
+    "init": "请求广告",
+    "loading": "加载中...",
+    "loaded": "重新请求广告",
+    "error": "请求广告",
+    "ad_text": "广告"
+  }
+}

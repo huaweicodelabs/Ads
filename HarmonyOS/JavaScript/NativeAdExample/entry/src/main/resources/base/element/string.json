@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "NativeAdsExample"
+    },
+    {
+      "name": "mainability_description",
+      "value": "NativeAdsExample Ability"
+    }
+  ]
+}

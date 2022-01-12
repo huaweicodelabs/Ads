@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StackLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+             ohos:background_element="#ffffff"
+             ohos:width="match_parent"
+             ohos:height="match_parent">
+
+    <DependentLayout
+        ohos:width="match_parent"
+        ohos:height="match_content">
+
+        <DependentLayout
+            ohos:background_element="#000000"
+            ohos:width="match_parent"
+            ohos:height="250vp"
+            ohos:id="$+id:instream_video_frame">
+
+            <Text
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:text_color="#ffffff"
+                ohos:text_alignment="center"
+                ohos:text="$string:instream_video_content"
+                ohos:center_in_parent="true"/>
+
+        </DependentLayout>
+
+        <com.huawei.hms.ads.instreamad.InstreamView
+            ohos:width="match_parent"
+            ohos:height="250vp"
+            ohos:id="$+id:instream_view"/>
+
+        <Text
+            ohos:background_element="$color:demo_20_percent_gray"
+            ohos:width="match_content" ohos:height="match_content"
+            ohos:id="$+id:instream_timer_tv" ohos:text_color="#ffffff"
+            ohos:visibility="hide" ohos:top_padding="3vp"
+            ohos:top_margin="10vp" ohos:text_size="13fp"
+            ohos:start_padding="5vp" ohos:max_text_lines="1"
+            ohos:end_padding="5vp" ohos:end_margin="10vp"
+            ohos:bottom_padding="3vp"
+            ohos:align_parent_top="true"
+            ohos:align_parent_end="true"/>
+
+        <Image
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:id="$+id:instream_wta_icon"
+            ohos:start_margin="10vp"
+            ohos:image_src="$graphic:app_whythisad_info"
+            ohos:end_of="$+id:instream_ad_tip_tv"
+            ohos:bottom_margin="10vp"
+            ohos:align_bottom="$+id:instream_view"/>
+
+        <Text
+            ohos:background_element="$color:demo_20_percent_gray"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:id="$+id:instream_ad_tip_tv"
+            ohos:text_color="$color:white"
+            ohos:text="$string:ad_flag"
+            ohos:top_padding="3vp"
+            ohos:text_size="13fp"
+            ohos:start_padding="5vp"
+            ohos:max_text_lines="1"
+            ohos:end_padding="5vp"
+            ohos:bottom_padding="3vp"
+            ohos:start_margin="10vp"
+            ohos:bottom_margin="10vp"
+            ohos:align_bottom="$+id:instream_view"
+            ohos:align_start="$+id:instream_view"/>
+
+        <DependentLayout
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:id="$+id:intream_cta_container"
+            ohos:end_margin="10vp"
+            ohos:start_margin="10vp"
+            ohos:end_of="$id:instream_wta_icon"
+            ohos:bottom_margin="10vp"
+            ohos:align_bottom="$+id:instream_view"
+            ohos:align_end="$+id:instream_view">
+
+            <Button
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:id="$+id:instream_call_to_action"
+                ohos:text_color="$color:hiad_video_progress_blue"
+                ohos:top_padding="3vp" ohos:text_size="13fp"
+                ohos:start_padding="5vp"
+                ohos:max_text_lines="1"
+                ohos:end_padding="5vp"
+                ohos:bottom_padding="3vp"
+                ohos:align_parent_end="true"/>
+
+        </DependentLayout>
+
+        <Button
+            ohos:background_element="$color:demo_20_percent_gray"
+            ohos:width="64vp" ohos:height="28vp"
+            ohos:id="$+id:instream_skip"
+            ohos:text_color="$color:hiad_video_progress_blue"
+            ohos:text="$string:instream_skip_ad"
+            ohos:top_padding="3vp"
+            ohos:top_margin="10vp"
+            ohos:text_size="16fp"
+            ohos:start_padding="5vp"
+            ohos:max_text_lines="1"
+            ohos:end_padding="5vp"
+            ohos:bottom_padding="3vp"
+            ohos:start_margin="10vp"
+            ohos:align_start="$+id:instream_view"
+            ohos:align_top="$+id:instream_view"/>
+
+        <DirectionalLayout
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:id="$+id:instream_control_panel"
+            ohos:top_margin="10vp"
+            ohos:end_of="$+id:instream_skip"
+            ohos:align_top="$+id:instream_view"
+            ohos:start_of="$+id:instream_timer_tv"
+            ohos:orientation="horizontal"
+            ohos:alignment="center">
+
+            <Button
+                ohos:background_element="$color:demo_20_percent_gray"
+                ohos:width="55vp"
+                ohos:height="28vp"
+                ohos:id="$+id:instream_play_btn"
+                ohos:text_color="$color:hiad_video_progress_blue"
+                ohos:text="$string:instream_play"
+                ohos:text_size="13fp"/>
+
+            <Button
+                ohos:background_element="$color:demo_20_percent_gray"
+                ohos:width="55vp"
+                ohos:height="28vp"
+                ohos:id="$+id:instream_mute_btn"
+                ohos:text_color="$color:hiad_video_progress_blue"
+                ohos:text="$string:instream_mute"
+                ohos:text_size="13fp"
+                ohos:left_margin="8vp"/>
+
+        </DirectionalLayout>
+
+    </DependentLayout>
+
+</StackLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.hms.ads.nativead.NativeView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:native_app_download_button_view"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="#FFFFFF">
+
+    <DependentLayout
+        ohos:id="$+id:background"
+        ohos:height="match_content"
+        ohos:width="match_parent">
+
+        <com.huawei.hms.ads.nativead.MediaView
+            ohos:id="$+id:ad_media"
+            ohos:height="match_content"
+            ohos:width="match_parent"/>
+
+        <DependentLayout
+            ohos:id="$+id:left_bottom_view"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$id:ad_media">
+
+            <Text
+                ohos:id="$+id:ad_title"
+                ohos:width="180vp"
+                ohos:height="19vp"
+                ohos:start_margin="24vp"
+                ohos:top_margin="16vp"
+                ohos:alpha="1"
+                ohos:text_color="#000000"
+                ohos:text_size="13fp"/>
+
+            <Text
+                ohos:id="$+id:ad_source"
+                ohos:width="match_content"
+                ohos:height="19vp"
+                ohos:below="$id:ad_title"
+                ohos:top_margin="2vp"
+                ohos:bottom_margin="16vp"
+                ohos:start_margin="24vp"
+                ohos:alpha="0.6"
+                ohos:max_width="158vp"
+                ohos:text_color="#666666"
+                ohos:text_size="12fp"/>
+
+            <Text
+                ohos:id="$+id:ad_flag"
+                ohos:width="20vp"
+                ohos:height="14vp"
+                ohos:top_margin="40vp"
+                ohos:start_margin="8vp"
+                ohos:end_of="$id:ad_source"
+                ohos:background_element="$graphic:native_flag_rounded_corners_shape"
+                ohos:text_alignment="center"
+                ohos:text="$string:ad_flag"
+                ohos:text_color="#FFFFFF"
+                ohos:text_size="8fp"
+                ohos:text_weight="700"/>
+        </DependentLayout>
+
+        <DependentLayout
+            ohos:id="$+id:right_bottom_view"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:below="$id:ad_media"
+            ohos:align_parent_end="true">
+
+            <com.huawei.hms.ads.AppDownloadButton
+                xmlns:progress_button="http://schemas.huawei.com/res/ohos/ads"
+                ohos:id="$+id:app_download_btn"
+                ohos:width="72vp"
+                ohos:height="26vp"
+                ohos:align_parent_end="true"
+                ohos:top_margin="23vp"
+                ohos:end_margin="52vp"
+                ohos:bottom_margin="23vp"
+                progress_button:hiad_fixedWidth="true"
+                progress_button:hiad_maxWidth="96vp"
+                progress_button:hiad_minWidth="48vp"
+                progress_button:hiad_textColor="#FFFFFF"
+                progress_button:hiad_textSize="12fp" />
+
+            <Button
+                ohos:id="$+id:ad_call_to_action"
+                ohos:width="72vp"
+                ohos:height="26vp"
+                ohos:align_parent_end="true"
+                ohos:visibility="hide"
+                ohos:text_size="10fp"
+                ohos:text_color="#FFFFFF"
+                ohos:background_element="$graphic:native_button_rounded_corners_shape"
+                ohos:top_margin="23vp"
+                ohos:end_margin="52vp"
+                ohos:bottom_margin="23vp"/>
+        </DependentLayout>
+    </DependentLayout>
+</com.huawei.hms.ads.nativead.NativeView>

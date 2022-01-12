@@ -1,0 +1,64 @@
+<!--
+Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<div class="container">
+    <div class="item">
+        <label class='label'>
+            {{ $t('strings.oaid_text') }}
+        </label>
+        <div class='result'>
+            <text>
+                {{ oaid }}
+            </text>
+        </div>
+    </div>
+    <div class="item">
+        <label class='label'>
+            {{ $t('strings.oaid_switch_text') }}
+        </label>
+
+        <div class='result'>
+            <text>
+                {{ isOaidTrackLimited }}
+            </text>
+        </div>
+    </div>
+    <div class="item">
+        <label class='label'>
+            {{ $t('strings.verify_text') }}
+        </label>
+
+        <div class='result'>
+            <text>
+                {{ verifyResult }}
+            </text>
+        </div>
+    </div>
+    <div class="item">
+        <label class='label'>
+            {{ $t('strings.cost_time_text') }}
+        </label>
+
+        <div class='result'>
+            <text>
+                {{ costTime }}
+            </text>
+        </div>
+    </div>
+    <div class="submit">
+        <button type="capsule" onclick="updateAdIdInfo">{{ $t('strings.refresh_btn_text') }}</button>
+    </div>
+</div>

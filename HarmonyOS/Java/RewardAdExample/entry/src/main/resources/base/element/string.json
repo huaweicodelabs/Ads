@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "Reward_MainAbility",
+      "value": "Reward_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "reward_ad_title",
+      "value": "This is rewarded ads sample."
+    },
+    {
+      "name": "ad_id_reward",
+      "value": "testx9dtjwj8hp"
+    },
+    {
+      "name": "play_button",
+      "value": "Play"
+    },
+    {
+      "name": "watch_video_button_text",
+      "value": "Watch Video"
+    }
+  ]
+}

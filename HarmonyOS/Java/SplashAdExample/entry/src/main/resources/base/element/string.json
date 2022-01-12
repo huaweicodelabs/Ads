@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "MainAbility",
+      "value": "MainAbility"
+    },
+    {
+      "name": "SplashAbility",
+      "value": "SplashAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "owner",
+      "value": "HUAWEI Developer"
+    },
+    {
+      "name": "media_name",
+      "value": "HUAWEI Ads"
+    },
+    {
+      "name": "copyright_info",
+      "value": "Copyright 2020. Huawei Technologies Co., Ltd"
+    },
+    {
+      "name": "ad_id_splash",
+      "value": "testd7c5cewoj6"
+    },
+    {
+      "name": "ad_id_splash_landscape",
+      "value": "testq6zq98hecj"
+    },
+    {
+      "name": "status_load_ad_fail",
+      "value": "Ad loading state: failed to be loaded. Error code: "
+    },
+    {
+      "name": "status_ad_dismissed",
+      "value": "Splash Ad is dismissed."
+    },
+    {
+      "name": "status_load_ad_success",
+      "value": "Ad loading state: loaded successfully."
+    }
+  ]
+}

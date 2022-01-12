@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row title">
+        <text>This is a rewarded ad example.</text>
+    </div>
+    <div class="row">
+        <button class="btn" on:click="onPlayBtnClickHandler">
+            PLAY
+        </button>
+    </div>
+    <div class="row">
+        <button class="btn"  on:click="onWatchBtnClickHandler">
+            WATCH VIDEO
+        </button>
+    </div>
+    <div class="row">
+        <text>
+            Score:
+        </text>
+        <text>
+            <span>{{ score }}</span>
+        </text>
+    </div>
+</div>

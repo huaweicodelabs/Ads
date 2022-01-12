@@ -1,0 +1,84 @@
+{
+  "string": [
+    {
+      "name": "Native_MainAbility",
+      "value": "Native_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "ad_flag",
+      "value": "Ad"
+    },
+    {
+      "name": "display_form",
+      "value": "Display form:"
+    },
+    {
+      "name": "ad_id_native",
+      "value": "testu7m3hc4gvm"
+    },
+    {
+      "name": "ad_id_native_small",
+      "value": "testb65czjivt9"
+    },
+    {
+      "name": "ad_id_native_three",
+      "value": "testr6w14o0hqz"
+    },
+    {
+      "name": "ad_id_native_video",
+      "value": "testy63txaom86"
+    },
+    {
+      "name": "status_load_ad_success",
+      "value": "Ad loading state: loaded successfully."
+    },
+    {
+      "name": "status_load_ad_finish",
+      "value": "Ad loading state: loaded finish."
+    },
+    {
+      "name": "status_load_ad_fail",
+      "value": "Ad loading state: failed to be loaded. Error code: "
+    },
+    {
+      "name": "status_ad_loading",
+      "value": "Ad loading state: being loaded."
+    },
+    {
+      "name": "ad_is_closed",
+      "value": "Ad is closed."
+    },
+    {
+      "name": "large_image_with_text",
+      "value": "Large image with text."
+    },
+    {
+      "name": "three_small_images_with_text",
+      "value": "Three images with text."
+    },
+    {
+      "name": "small_image_with_text",
+      "value": "Small image with text."
+    },
+    {
+      "name": "video_with_text",
+      "value": "Video with text."
+    },
+    {
+      "name": "ad_with_app_download_button",
+      "value": "Ad with app download button."
+    },
+    {
+      "name": "load_button_text",
+      "value": "Load Ad"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text_alignment="start"
+                ohos:start_margin="24vp"
+                ohos:top_margin="10vp"
+                ohos:text="HarmonyOaidSdk"
+                ohos:text_size="15fp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text_alignment="start"
+                ohos:start_margin="24vp"
+                ohos:top_margin="21vp"
+                ohos:text="OAID:"
+                ohos:text_size="15fp"/>
+
+            <Text
+                ohos:id="$+id:adid_tv"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:top_padding="8vp"
+                ohos:bottom_padding="8vp"
+                ohos:text_alignment="start"
+                ohos:start_margin="24vp"
+                ohos:end_margin="24vp"
+                ohos:top_margin="21vp"
+                ohos:text_size="15fp"
+                ohos:background_element="$graphic:btn_bg_normal"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text_alignment="start"
+                ohos:start_margin="24vp"
+                ohos:top_margin="21vp"
+                ohos:text="isLimitTrace:"
+                ohos:text_size="15fp"/>
+
+            <Text
+                ohos:id="$+id:limit_tv"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:top_padding="8vp"
+                ohos:bottom_padding="8vp"
+                ohos:text_alignment="start"
+                ohos:start_margin="24vp"
+                ohos:end_margin="24vp"
+                ohos:top_margin="21vp"
+                ohos:text_size="15fp"
+                ohos:background_element="$graphic:btn_bg_normal"/>
+
+        </DirectionalLayout>
+
+        <Button
+            ohos:id="$+id:get_id_limit_btn"
+            ohos:height="match_content"
+            ohos:width="200vp"
+            ohos:top_margin="16vp"
+            ohos:text="获取"
+            ohos:text_size="15fp"
+            ohos:text_color="#FFFFFF"
+            ohos:padding="8vp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:background_element="$graphic:btn_blue_bg"/>
+    </DirectionalLayout>
+</ScrollView>

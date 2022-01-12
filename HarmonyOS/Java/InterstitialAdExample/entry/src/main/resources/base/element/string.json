@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "Interstitial_MainAbility",
+      "value": "Interstitial_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "image_ad_id",
+      "value": "teste9ih9j0rc3"
+    },
+    {
+      "name": "video_ad_id",
+      "value": "testb4znbuh3n2"
+    },
+    {
+      "name": "interstitial_display_picture",
+      "value": "Image"
+    },
+    {
+      "name": "interstitial_display_video",
+      "value": "Video"
+    },
+    {
+      "name": "load_button",
+      "value": "Load Ad"
+    },
+    {
+      "name": "interstitial_title_text",
+      "value": "This is interstitial ad sample."
+    },
+    {
+      "name": "display_form",
+      "value": "Display form:"
+    }
+  ]
+}

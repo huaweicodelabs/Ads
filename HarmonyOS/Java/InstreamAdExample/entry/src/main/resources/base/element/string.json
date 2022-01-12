@@ -1,0 +1,48 @@
+{
+  "string": [
+    {
+      "name": "Instream_MainAbility",
+      "value": "Instream_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "instream_video_content",
+      "value": "Your video content"
+    },
+    {
+      "name": "instream_skip_ad",
+      "value": "Skip"
+    },
+    {
+      "name": "instream_ad_id",
+      "value": "testy3cglm3pj0"
+    },
+    {
+      "name": "instream_mute",
+      "value": "Mute"
+    },
+    {
+      "name": "instream_unmute",
+      "value": "UnMute"
+    },
+    {
+      "name": "instream_play",
+      "value": "Play"
+    },
+    {
+      "name": "instream_pause",
+      "value": "Pause"
+    },
+    {
+      "name": "ad_flag",
+      "value": "Ad"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$color:white">
+
+    <Text
+        ohos:id="$+id:text_interstitial"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="16vp"
+        ohos:text="$string:interstitial_title_text"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"
+        ohos:top_margin="16vp"/>
+
+    <DirectionalLayout
+        ohos:id="$+id:ad_display_form"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$+id:text_interstitial"
+        ohos:left_margin="16vp"
+        ohos:orientation="horizontal"
+        ohos:top_margin="20vp">
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:layout_alignment="vertical_center|left"
+            ohos:text="$string:display_form"
+            ohos:text_alignment="vertical_center|left"
+            ohos:text_color="$color:black"
+            ohos:text_size="20fp"/>
+
+        <RadioContainer
+            ohos:id="$+id:display_radio_group"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:left_margin="10vp"
+            ohos:orientation="horizontal">
+
+            <RadioButton
+                ohos:id="$+id:display_image"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:marked="true"
+                ohos:text_size="20fp"
+                ohos:text="$string:interstitial_display_picture"/>
+
+            <RadioButton
+                ohos:id="$+id:display_video"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text_size="20fp"
+                ohos:text="$string:interstitial_display_video"/>
+        </RadioContainer>
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:load_ad"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:below="$+id:ad_display_form"
+        ohos:horizontal_center="true"
+        ohos:text="$string:load_button"
+        ohos:text_size="20fp"
+        ohos:top_margin="60vp"/>
+</DependentLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent">
+
+    <DependentLayout
+        ohos:id="$+id:logo_area"
+        ohos:width="match_parent"
+        ohos:height="100vp"
+        ohos:align_parent_bottom="true"
+        ohos:background_element="$color:white"
+        ohos:visibility="visible">
+
+        <DirectionalLayout
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_bottom="true"
+            ohos:horizontal_center="true"
+            ohos:bottom_margin="40vp"
+            ohos:orientation="vertical">
+
+            <DirectionalLayout
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:layout_alignment="center"
+                ohos:bottom_margin="6vp"
+                ohos:alignment="center"
+                ohos:orientation="horizontal">
+
+                <Image
+                    ohos:width="28vp"
+                    ohos:height="28vp"
+                    ohos:background_element="$media:ic_launcher" />
+
+                <Component
+                    ohos:width="0.5vp"
+                    ohos:height="18vp"
+                    ohos:left_margin="12vp"
+                    ohos:right_margin="12vp"
+                    ohos:alpha="0.1"
+                    ohos:background_element="$color:black" />
+
+                <Text
+                    ohos:width="match_content"
+                    ohos:height="match_content"
+                    ohos:alpha="1"
+                    ohos:text="$string:owner"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="16fp" />
+            </DirectionalLayout>
+
+            <Text
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:layout_alignment="center"
+                ohos:alpha="0.5"
+                ohos:text="$string:copyright_info"
+                ohos:text_color="$color:black"
+                ohos:text_size="8fp" />
+        </DirectionalLayout>
+    </DependentLayout>
+
+    <com.huawei.hms.ads.splash.SplashView
+        ohos:id="$+id:plash_ad_view"
+        ohos:width="match_parent"
+        ohos:height="match_parent"
+        ohos:above="$id:logo_area" />
+
+    <DependentLayout
+        ohos:id="$+id:splash_slogan_view"
+        ohos:width="match_parent"
+        ohos:height="match_parent"
+        ohos:visibility="hide"
+        ohos:align_parent_bottom="true">
+
+        <Image
+            ohos:width="match_parent"
+            ohos:height="match_parent"
+            ohos:image_src="$media:default_slogan"
+            ohos:scale_mode="clip_center"/>
+    </DependentLayout>
+
+</DependentLayout>

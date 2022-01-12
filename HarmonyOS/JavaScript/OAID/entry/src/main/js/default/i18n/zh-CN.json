@@ -1,0 +1,9 @@
+{
+  "strings": {
+    "oaid_text": "OAID",
+    "oaid_switch_text": "Disable Ads Personalization",
+    "verify_text": "Verify Result",
+    "cost_time_text": "Cost Time(ms)",
+    "refresh__btn_text": "Refresh OAID"
+  }
+}

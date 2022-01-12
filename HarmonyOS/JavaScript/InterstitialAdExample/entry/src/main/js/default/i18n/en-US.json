@@ -1,0 +1,9 @@
+{
+  "strings": {
+    "init": "LOAD INTERSTITIAL AD",
+    "loading": "Loading...",
+    "loaded": "SHOW AD",
+    "shown": "Refresh INTERSTITIAL AD",
+    "error": "LOAD INTERSTITIAL AD"
+  }
+}

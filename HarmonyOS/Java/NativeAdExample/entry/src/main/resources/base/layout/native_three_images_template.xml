@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.hms.ads.nativead.NativeView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:native_three_images"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="#FFFFFF">
+
+    <DirectionalLayout
+        ohos:id="$+id:background"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:margin="10vp">
+
+        <!-- 广告多媒体视图 -->
+        <DirectionalLayout
+            ohos:width="match_parent"
+            ohos:height="80vp"
+            ohos:orientation="horizontal">
+
+            <Image
+                ohos:id="$+id:image_view_1"
+                ohos:width="0vp"
+                ohos:height="75vp"
+                ohos:weight="1"
+                ohos:margin="5vp"/>
+
+            <Image
+                ohos:id="$+id:image_view_2"
+                ohos:width="0vp"
+                ohos:height="75vp"
+                ohos:weight="1"
+                ohos:margin="5vp"/>
+
+            <Image
+                ohos:id="$+id:image_view_3"
+                ohos:width="0vp"
+                ohos:height="75vp"
+                ohos:weight="1"
+                ohos:margin="5vp"/>
+        </DirectionalLayout>
+
+        <DependentLayout
+            ohos:id="$+id:center_view"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:start_margin="5vp"
+            ohos:end_margin="5vp"
+            ohos:background_element="#FFFFFF">
+
+            <!-- 广告标题 -->
+            <Text
+                ohos:id="$+id:ad_title"
+                ohos:width="match_parent"
+                ohos:height="30vp"
+                ohos:top_margin="4vp"
+                ohos:alpha="1"
+                ohos:text_color="#000000"
+                ohos:text_size="13fp"/>
+
+            <!-- 广告来源 -->
+            <Text
+                ohos:id="$+id:ad_source"
+                ohos:width="match_content"
+                ohos:height="14vp"
+                ohos:top_margin="28vp"
+                ohos:bottom_margin="4vp"
+                ohos:alpha="0.6"
+                ohos:text_color="#666666"
+                ohos:text_size="13fp"
+                ohos:max_width="132vp"
+                ohos:text_alignment="vertical_center"/>
+
+            <!-- 广告标识 -->
+            <Text
+                ohos:id="$+id:ad_flag"
+                ohos:width="16vp"
+                ohos:height="14vp"
+                ohos:start_margin="8vp"
+                ohos:top_margin="30vp"
+                ohos:end_of="$id:ad_source"
+                ohos:background_element="$graphic:native_flag_rounded_corners_shape"
+                ohos:text_alignment="center"
+                ohos:text="$string:ad_flag"
+                ohos:text_color="#FFFFFF"
+                ohos:text_size="8fp"
+                ohos:text_weight="700"/>
+
+            <!-- 广告点击行为按钮 -->
+            <Button
+                ohos:id="$+id:ad_call_to_action"
+                ohos:width="72vp"
+                ohos:height="26vp"
+                ohos:align_parent_end="true"
+                ohos:top_margin="12vp"
+                ohos:end_margin="40vp"
+                ohos:bottom_margin="23vp"
+                ohos:text_size="10fp"
+                ohos:text_color="#FFFFFF"
+                ohos:background_element="$graphic:native_button_rounded_corners_shape"/>
+        </DependentLayout>
+    </DirectionalLayout>
+</com.huawei.hms.ads.nativead.NativeView>
