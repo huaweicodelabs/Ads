@@ -32,12 +32,12 @@ public class MainAbility extends Ability {
         // Initialize the HUAWEI Ads Ohos SDK
         HwAds.init(this);
 
-        // 获取XML中配置的BannerView
+        // Obtains the banner view configured in the XML file.
         BannerView bottomBannerView = findComponentById(ResourceTable.Id_hw_banner_view);
         AdParam adParam = new AdParam.Builder().build();
         bottomBannerView.loadAd(adParam);
 
-        // 通过编程的方式添加
+        // Add Programmatically.
         BannerView topBannerView = new BannerView(this);
         topBannerView.setAdId("testw6vs28auh3");
         topBannerView.setBannerAdSize(BannerAdSize.BANNER_SIZE_SMART);
