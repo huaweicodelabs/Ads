@@ -29,11 +29,9 @@ public class MainAbility extends Ability {
     public void onStart(Intent intent) {
         super.onStart(intent);
         super.setUIContent(ResourceTable.Layout_ability_main);
-        // Initialize the HUAWEI Ads SDK
-        HwAds.init(this);
-
         // Initialize the HUAWEI Ads Ohos SDK
         HwAds.init(this);
+
         // 获取XML中配置的BannerView
         BannerView bottomBannerView = findComponentById(ResourceTable.Id_hw_banner_view);
         AdParam adParam = new AdParam.Builder().build();
