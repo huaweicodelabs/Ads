@@ -1,2 +1,0 @@
-# BannerAdExample-Harmony-Js
-
