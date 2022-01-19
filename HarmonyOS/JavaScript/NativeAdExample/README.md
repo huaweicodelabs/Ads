@@ -1,2 +1,0 @@
-# NativeAdExample-Harmony-Js
-
