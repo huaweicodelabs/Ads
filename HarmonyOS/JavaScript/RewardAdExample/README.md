@@ -1,2 +1,0 @@
-# RewardAdExample-Harmony-Js
-
