@@ -1,2 +1,0 @@
-# OAID-Harmony-JS
-
