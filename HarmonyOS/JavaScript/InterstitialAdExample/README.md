@@ -1,2 +1,0 @@
-# InterstitialAdExample-Harmony-Js
-
