@@ -27,7 +27,7 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
-    implementation 'com.huawei.hms:ads-lite:13.4.50.300'
+    implementation 'com.huawei.hms:ads-lite:13.4.51.300'
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
