@@ -29,7 +29,7 @@
 
     MainActivity.java
     Loads and displays native ads.
-    Code location：NativeAdExample\app\src\main\java\com\example\nativeadexample\MainActivity.kt
+    Code location：Ads/NativeAdExample-kotlin/app/src/main/java/com/huawei/nativeadexample/MainActivity.kt
 
 ##  License
     NativeAdExample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
