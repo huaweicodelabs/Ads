@@ -27,7 +27,7 @@
     The NativeAdExample program integrates the HMS Core Ads SDK and provides the page for displaying native ads.
     The following class in the demo is used for loading and displaying ads:
 
-    MainActivity.java
+    MainActivity.kt
     Loads and displays native ads.
     Code location：Ads/NativeAdExample-kotlin/app/src/main/java/com/huawei/nativeadexample/MainActivity.kt
 
