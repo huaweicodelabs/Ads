@@ -27,13 +27,13 @@
     The following class in the demo is used for enable ExSplash ads:
 
     Main classes:
-    Code location: ExSplashExample\app\src\main\java\com\huawei\hms\ads\exsplash\MainActivity.java
-	Code location: ExSplashExample\app\src\main\java\com\huawei\hms\ads\exsplash\ExSplashBroadcastReceiver.java
-	Code location: ExSplashExample\app\src\main\java\com\huawei\hms\ads\exsplash\ExSplashServiceManager.java
-	Code location: ExSplashExample\app\src\main\java\com\huawei\hms\ads\exsplash\ProtocolDialog.java
+    Code location: Ads/ExSplash/app/src/main/java/com/huawei/hms/ads/exsplash/MainActivity.java
+	Code location: Ads/ExSplash/app/src/main/java/com/huawei/hms/ads/exsplash/ExSplashBroadcastReceiver.java
+	Code location: Ads/ExSplash/app/src/main/java/com/huawei/hms/ads/exsplash/ExSplashServiceManager.java
+	Code location: Ads/ExSplash/app/src/main/java/com/huawei/hms/ads/exsplash/ProtocolDialog.java
 	
 	AIDL Interface:
-	Code location: ExSplashExample\app\src\main\aidl\com\huawei\hms\ads\ExSplashService.aidl
+	Code location: Ads/ExSplash/app/src/main/aidl/com/huawei/hms/ads/ExSplashService.aidl
 
 ##  License
     ExSplashExample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
