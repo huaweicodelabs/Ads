@@ -29,7 +29,7 @@
 
     MainActivity.java
     Loads and displays interstitial ads.
-    Code location:Interstitialadexample\app\src\main\java\com\example\interstitialadexample\MainActivity.java
+    Code location:Ads/Interstitial/app/src/main/java/com/huawei/interstitialexample/MainActivity.java
 
 ##  License
     Interstitialadexample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
