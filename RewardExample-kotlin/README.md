@@ -29,7 +29,7 @@
 
     MainActivity.java
     Loads and displays rewarded ads.
-    Code location：RewardExample\app\src\main\java\com\example\rewardexample\MainActivity.kt
+    Code location：Ads/RewardExample-kotlin/app/src/main/java/com/huawei/rewardexample/MainActivity.kt
 
 ##  License
     RewardExample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
