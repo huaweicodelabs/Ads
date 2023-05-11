@@ -30,19 +30,19 @@ The HuaweiAds_Install_Referrer_Demo program integrates the install referrer capa
 
 1). PpsChannelInfoService.java
 <br>Test ChannelInfo Service.
-<br>Code location: HuaweiAds_Install_Referrer_Demo\app\src\main\java\com\huawei\pps\hms\test\PpsChannelInfoService.java.</br>
+<br>Code location: Ads/InstallReferrer/app/src/main/java/com/huawei/pps/hms/test/PpsChannelInfoService.java.</br>
 	
 2). InstallReferrerWriteActivity.java
 <br>Write install referrer information
-<br>Code location: HuaweiAds_Install_Referrer_Demo\app\src\main\java\com\huawei\pps\hms\test\installreferrer\InstallReferrerWriteActivity.java.</br>
+<br>Code location: Ads/InstallReferrer/app/src/main/java/com/huawei/pps/hms/test/installreferrer/InstallReferrerWriteActivity.java.</br>
     
 3). InstallReferrerActivity.java
 <br>Show install referrer information.
-<br>Code location: HuaweiAds_Install_Referrer_Demo\app\src\main\java\com\huawei\pps\hms\test\installreferrer\InstallReferrerActivity.java.</br>
+<br>Code location: Ads/InstallReferrer/app/src/main/java/com/huawei/pps/hms/test/installreferrer/InstallReferrerActivity.java.</br>
 	
 4). IPPSChannelInfoService.aidl
 <br>ChannelInfo AIDL inferface.
-<br>Code location: HuaweiAds_Install_Referrer_Demo\app\src\main\aidl\com\huawei\android\hms\ppskit\IPPSChannelInfoService.aidl.</br>
+<br>Code location: Ads/InstallReferrer/app/src/main/aidl/com/huawei/android/hms/ppskit/IPPSChannelInfoService.aidl.</br>
     
 
 
