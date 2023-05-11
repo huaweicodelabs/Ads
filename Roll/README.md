@@ -29,7 +29,7 @@
 
     MainActivity.java
     Loads and displays roll ads.
-    Code location: Roll\app\src\main\java\com\huawei\instreamadexample\MainActivity.java
+    Code location: Ads/Roll/app/src/main/java/com/huawei/instreamadexample/MainActivity.java
 
 ##  License
     InstreamAdExample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
