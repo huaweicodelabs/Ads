@@ -29,7 +29,7 @@
 
     MainActivity.kt
     Loads and displays banner ads.
-    Code location：BannerExample\app\src\main\java\com\example\bannerexample\MainActivity.kt
+    Code location：Ads/BannerExample-kotlin/app/src/main/java/com/huawei/bannerexample/MainActivity.kt
 
 ##  License
     BannerExample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
