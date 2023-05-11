@@ -30,11 +30,11 @@ The HuaweiAds_OAID_Demo program integrates OAID capabilities.
 
 1). MainActivity.java
 <br>MainActivity
-<br>Code location: HuaweiAds_OAID_Demo\app\src\main\java\com\huawei\pps\hms\test\oaid\MainActivity.java.</br>
+<br>Code location: Ads/OAID/app/src/main/java/com/huawei/pps/hms/test/MainActivity.java.</br>
     
 2). OaidActivity.java
 <br>Show OAID.
-<br>Code location: HuaweiAds_OAID_Demo\app\src\main\java\com\huawei\pps\hms\test\oaid\OaidActivity.java.</br>
+<br>Code location: Ads/OAID/app/src/main/java/com/huawei/pps/hms/test/oaid/OaidActivity.java.</br>
     
 
 ##  License
