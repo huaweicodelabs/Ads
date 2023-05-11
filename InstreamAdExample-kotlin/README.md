@@ -29,7 +29,7 @@
 
     MainActivity.kt
     Loads and displays instream ads.
-    Code location: InstreamAdExample\app\src\main\java\com\huawei\instreamadexample\MainActivity.kt
+    Code location: Ads/InstreamAdExample-kotlin/app/src/main/java/com/huawei/instreamadexample/MainActivity.kt
 
 ##  License
     InstreamAdExample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
